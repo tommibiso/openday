@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../immagini/logo_nosfondo.png">
+        <title>Liceo Levi |
+            Atrio</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div class="header">
+        <div class="container">
+         <div class="navbar">
+             <div class="logo">
+                 <img src="../immagini/logo_nosfondo.png" width="75px" style="background-color: #1fa7d0;">
+             </div>
+             <nav>
+                <ul id="MenuItems">
+                    <li ><a href="../index.html" style="background-color: #1fa7d0; color: white;">Home</a></li>
+                    <li><a href="../index.html#indirizzi" style="background-color: #1fa7d0; color: white;">indirizzi</a></li>
+                    <li><a href="../index.html#strutture" style="background-color: #1fa7d0; color: white;">strutture</a></li>
+                    <li><a href="../index.html#laboratori" style="background-color: #1fa7d0; color: white;">laboratori</a></li>
+                    <li><a href="../index.html#attività" style="background-color: #1fa7d0; color: white;">progetti</a></li>
+                    <li><a href="https://www.iisprimolevi.edu.it/pagine/contatti-1" style="background-color: #1fa7d0; color: white;">contatti</a></li>
+                </ul>
+             </nav>
+             <img src="../immagini/images-removebg-preview.png" class="menu-icon" onclick="menutoggle()">
+         </div>
+         <h1  style="padding-bottom: 0px;padding-top: 30px; text-align: center; font-size: 40px;
+         line-height: 60px;
+         margin: 15px 0;">Atrio</h1>
+         <div class="row" style="padding-left: 15px; padding-right: 15px;" >
+             <div class="col-2" style="padding-right: 15px; padding-bottom: 25px;">
+                
+                 <img src="../immagini/atrio.png&rs=_tccTw2MgxYfdxRYmYOB6Pk9jQH5POS_quVc8aOi3ns2htM1BhF_r5nAtRVDWvfTyMAZSK1CdbWaDHnglQjglAuFwI5cB_Vmg_uX4At01ifvHVhzR520_Yme+qShUDP+9Qj7hNmcQs3PUZ+9YD5vdA==">
+                 
+             </div>
+             <div class="col-2" style="padding-left: 15px; padding-bottom: 0px; padding-top: 0px;">
+                
+                <p>Il grande e luminoso atrio della scuola, che conduce a un'ampia scalinata, è dotato di diverse strutture utili. Vi si trovano un'area front office per l'accoglienza, bacheche informative, un espositore per i riconoscimenti e i premi ottenuti dagli studenti, e un monitor che visualizza eventi e iniziative coinvolgenti docenti e studenti. Questo spazio centrale funge da punto di riferimento per l'informazione e la comunicazione all'interno della scuola.</p>
+               
+             </div>
+         </div>
+        </div> 
+     </div>
+
+
+
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
